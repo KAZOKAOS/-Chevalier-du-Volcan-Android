@@ -30,10 +30,12 @@ jobs:
         run: |
           rm -rf "$HOME/.buildozer/android/platform/android-sdk"
 
+      
       - name: Construire l'APK
         run: |
           . .venv/bin/activate
-          buildozer -v android debug
+          yes | buildozer -v android debug
+
 
       - name: Publier l'APK comme artefact téléchargeable
         uses: actions/upload-artifact@v4
