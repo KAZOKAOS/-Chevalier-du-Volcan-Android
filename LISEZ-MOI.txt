@@ -1,0 +1,22 @@
+CHEVALIER DU VOLCAN — KIT DE CONSTRUCTION ANDROID
+
+Ce dossier contient la version mobile du jeu et les fichiers de construction Android.
+Le jeu a été vérifié syntaxiquement, mais l'APK n'a pas été compilé ni testé sur un vrai téléphone dans cet environnement.
+La construction Pygame/Android peut demander des corrections selon les versions du SDK/NDK et le téléphone.
+
+MÉTHODE LA PLUS SIMPLE (sans installer Python/Pygame sur le téléphone)
+1. Sur un ordinateur, crée un compte GitHub si nécessaire.
+2. Crée un nouveau dépôt GitHub privé nommé ChevalierDuVolcanAndroid.
+3. Envoie tous les fichiers de ce dossier dans le dépôt (y compris le dossier caché .github).
+4. Ouvre l'onglet Actions du dépôt et autorise les workflows si GitHub le demande.
+5. Sélectionne « Construire APK Android », puis « Run workflow ».
+6. Quand le workflow se termine, ouvre son exécution, puis télécharge l'artefact « Chevalier-du-Volcan-APK ».
+7. Décompresse l'archive téléchargée, transfère le fichier .apk sur ton téléphone Android et ouvre-le pour l'installer.
+8. Android peut demander d'autoriser l'installation depuis cette source. N'autorise que ton propre APK.
+
+IMPORTANT
+- Ce paquet est destiné à une installation de test personnelle, pas encore à une publication Play Store.
+- L'APK n'est pas fourni dans ce kit : il faut exécuter la compilation ci-dessus.
+- Le premier build peut prendre plusieurs minutes et peut échouer si la recette Pygame ou la chaîne Android change.
+- Les commandes tactiles ont été ajoutées dans le script mobile, mais il faut tester le jeu sur le téléphone réel.
+- Pour publier sur Google Play, il faudra préparer une version release signée et un Android App Bundle (AAB), puis suivre les règles de Google Play.
