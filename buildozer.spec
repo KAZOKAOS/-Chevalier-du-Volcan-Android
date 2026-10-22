@@ -1,5 +1,6 @@
 [app]
 title = Chevalier du Volcan
+android.accept_sdk_license = True
 package.name = chevalierduvolcan
 package.domain = fr.jeu.chevalierduvolcan
 source.dir = .
