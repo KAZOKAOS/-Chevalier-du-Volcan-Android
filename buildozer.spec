@@ -6,7 +6,7 @@ package.domain = fr.jeu.chevalierduvolcan
 source.dir = .
 source.include_exts = py,png,jpg,jpeg,ogg,wav,ttf,json
 version = 1.0.0
-requirements = python3,pygame
+requirements = python3==3.13.2,pygame
 orientation = landscape
 fullscreen = 1
 android.api = 35
