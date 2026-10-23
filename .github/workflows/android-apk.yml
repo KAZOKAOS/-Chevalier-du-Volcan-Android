@@ -34,7 +34,7 @@ jobs:
       - name: Construire l'APK
         run: |
           . .venv/bin/activate
-          yes | buildozer -v android debug
+          buildozer -v android debug
 
 
       - name: Publier l'APK comme artefact téléchargeable
