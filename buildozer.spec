@@ -13,7 +13,6 @@ android.api = 35
 android.minapi = 23
 android.archs = arm64-v8a
 android.allow_backup = True
-p4a.local_recipes = ./p4a-recipes
 p4a.bootstrap = sdl2
 
 [buildozer]
